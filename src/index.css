@@ -6,9 +6,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/** Paddings **/
+.padding-small{
+  padding: 15px !important;
+}
+.padding-medium{
+  padding: 40px !important;
+}
+.padding-large{
+  padding: 70px !important;
+}
+
+/** Paddings left **/
+.padding-small-left{
+  padding-left: 15px !important;
+}
+.padding-left{
+  padding-left: 40px !important;
+}
+.padding-large-left{
+  padding-left: 70px !important;
+}
+.padding-remove-left{
+  padding-left: 0 !important;
+}
+
+/** Paddings right **/
+.padding-small-right{
+  padding-right: 15px !important;
+}
+.padding-right{
+  padding-right: 40px !important;
+}
+.padding-large-right{
+  padding-right: 70px !important;
+}
+.padding-remove-right{
+  padding-right: 0 !important;
+}
+
+/** Paddings bottom **/
+.padding-small-bottom{
+  padding-bottom: 15px !important;
+}
+.padding-bottom{
+  padding-bottom: 40px !important;
+}
+.padding-large-bottom{
+  padding-bottom: 70px !important;
+}
+.padding-remove-bottom{
+  padding-bottom: 0 !important;
+}
+
+/** Paddings top **/
+.padding-small-top{
+  padding-top: 15px !important;
+}
+.padding-top{
+  padding-top: 40px !important;
+}
+.padding-large-top{
+  padding-top: 70px !important;
+}
+.padding-remove-top{
+  padding-top: 0 !important;
 }

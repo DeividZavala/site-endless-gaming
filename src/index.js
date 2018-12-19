@@ -6,10 +6,16 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom';
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import 'uikit/dist/css/uikit.min.css';
+
 
 // loads the Icon plugin
 UIkit.use(Icons);
+
+//adding brand logos to library
+library.add(fab);
 
 const WithRouter = () => (
     <BrowserRouter>
