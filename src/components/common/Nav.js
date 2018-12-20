@@ -44,7 +44,7 @@ class Navbar extends Component{
                         </a>
                     </div>
 
-                    <div className="uk-navbar-right">
+                    <div className="uk-navbar-right uk-visible@s">
                         <ul className="uk-navbar-nav">
                             <li className=""><a href="#">Inicio</a></li>
                             <li><a href="#">Noticias</a></li>
@@ -53,6 +53,34 @@ class Navbar extends Component{
                             <li><a href="#">Nosotros</a></li>
                             <li><a href="#">Patrocinadores</a></li>
                         </ul>
+                    </div>
+
+                    <div className="uk-navbar-right uk-hidden@s">
+                        <ul className="uk-navbar-nav">
+                            <li className="">
+                                <a href="#" uk-toggle="target: #movile-menu">
+                                    <span uk-icon="icon: menu;ratio:2"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="movile-menu" uk-offcanvas="overlay: true">
+                        <div className="uk-offcanvas-bar uk-flex uk-flex-column">
+
+                            <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
+
+                            <ul className="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                <li className="uk-active"><a href="#">Noticias</a></li>
+                                <li className=""><a href="#">Matches</a></li>
+                                <li className=""><a href="#">Equipo</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Patrocinadores</a></li>
+                                <li className="uk-nav-divider"></li>
+                                <li><a href="#">Inicio</a></li>
+                            </ul>
+
+                        </div>
                     </div>
 
                 </nav>

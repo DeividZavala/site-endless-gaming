@@ -41,3 +41,9 @@
     display: block;
     background-color: #0E60DC !important;
 }
+
+@media screen and (max-width: 768px){
+    .nav-main .site-navbar.padding-right {
+        padding-right: 0 !important;
+    }
+}

@@ -149,3 +149,18 @@
     line-height: 24px;
     display: block;
 }
+
+@media screen and (max-width: 992px) {
+    .twitter-section {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        height: initial;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .twitter-section {
+        padding: 72px 15px;
+    }
+}

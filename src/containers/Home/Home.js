@@ -98,8 +98,8 @@ class Home extends Component{
                     </div>
 
                     <div className="uk-margin-medium-top uk-container">
-                        <div className="twitter-section">
-                            <div className="uk-width-1-2@m">
+                        <div className="twitter-section uk-child-width-1-2@m uk-child-width-1-1@s">
+                            <div className="">
                                 <h4>Keep updated with the tweets</h4>
                                 <h3>WE POST HOT TWEETS ABOUT ESPORTS</h3>
                                 <p>
@@ -116,7 +116,7 @@ class Home extends Component{
                                     </span>
                                 </a>
                             </div>
-                            <div className="uk-width-1-2@m padding-small">
+                            <div className="padding-small">
                                 <TwitterTimelineEmbed
                                     sourceType="profile"
                                     screenName="EndlessGamingEG"

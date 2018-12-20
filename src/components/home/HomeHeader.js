@@ -5,7 +5,7 @@ const HomeHeader = () => (
         <div className="banner-image uk-flex uk-flex-middle uk-background-cover uk-light"
              data-src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/main-hero-2.jpg" uk-img="true">
             <div className="main-banner-info uk-container">
-                <h4 className="color-primary">eSports Fans This Is For You</h4>
+                <h4 className="color-primary">Esports Fans This Is For You</h4>
                 <h3 className="colo-white">Built for gamers, eSports fans, game fans & true gaming lovers</h3>
                 <h5>Built for gamers, eSports fans, game fans & true gaming lovers</h5>
                 <button className="btn btn-primary">

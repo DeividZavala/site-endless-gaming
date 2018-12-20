@@ -144,8 +144,7 @@ class App extends Component {
               <div className="bottom">
                   <div className="uk-container uk-navbar-container" uk-navbar="true">
 
-                      <div className="uk-navbar-left">
-                          <h5 className="website">PixieHuge - Orange Elite</h5>
+                      <div className="uk-navbar-left uk-width-1-1@s">
 
                           <ul className="uk-navbar-nav">
                               <li className=""><a href="https://www.facebook.com/EndlessGamingEG/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
@@ -157,7 +156,7 @@ class App extends Component {
                       </div>
 
 
-                      <div className="uk-navbar-right">
+                      <div className="uk-navbar-right uk-width-1-1@s">
                           <h5>Copyright Endless Gaming, crafted with love by Endless Gaming 2018</h5>
                       </div>
 

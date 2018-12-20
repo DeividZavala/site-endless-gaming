@@ -203,3 +203,32 @@
     position: relative;
     top: -2px;
 }
+
+@media screen and (max-width: 992px){
+    .matches-section div.matchBox {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        height: initial;
+    }
+    .matches-section div.matchBox > div.teams {
+        padding-right: 0;
+        margin-bottom: 34px;
+    }
+    .matches-section div.matchBox div.rightBox {
+        padding: 34px 0 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .matches-section div.matchBox a.cta-btn {
+        display: none;
+    }
+    .matchBox > div.teams:after{
+        display: none;
+    }
+    .matchBox > div.rightBox > div.match-info:after{
+        display: none;
+    }
+    .matches-section .matchBox > div.teams > span.vs{
+        margin: 0 20px;
+        line-height: 50px;
+    }
+}

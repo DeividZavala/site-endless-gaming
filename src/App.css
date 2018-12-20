@@ -226,3 +226,42 @@ footer .bottom .uk-container > div.uk-navbar-right {
     font-size: 0.875em;
     font-family: "Source Sans Pro", sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+    footer .uk-container.top {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer .container.top {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        width: 375px;
+    }
+    footer .uk-container.top article.box:not(:last-child) {
+        padding-right: 15px;
+        margin-right: 15px;
+        width: 170px;
+    }
+    footer .uk-container.top article.box.useful {
+        margin-top: 50px;
+    }
+    footer .uk-container.top article.box.aboutUs {
+        width: 170px;
+        margin-top: 50px;
+    }
+    footer .uk-navbar-container:not(.uk-navbar-transparent){
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .uk-navbar-left{
+        justify-content: center;
+        align-items: center;
+    }
+}
