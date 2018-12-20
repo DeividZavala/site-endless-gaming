@@ -59,7 +59,7 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-.matches-section .uk-tab>.uk-active>a {
+.matches-section .uk-tab>.uk-active>a, .stream-section .uk-tab>.uk-active>a {
     color: white;
     border-bottom: 2px solid #0E60DC;
 }

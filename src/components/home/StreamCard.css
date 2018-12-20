@@ -1,0 +1,150 @@
+.streamBox {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    position: relative;
+    text-align: left;
+}
+
+.streamBox.large {
+    height: 450px;
+}
+
+.streamBox:not(.large) .details.on-hover {
+    display: none;
+}
+
+.streamBox .details {
+    padding: 28px 26px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.05);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    width: 100%;
+}
+
+.streamBox:not(.large):hover .details.on-hover {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 0;
+}
+
+.streamBox .details > a {
+    display: block;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 15px;
+    max-width: 304px;
+    text-decoration: none;
+}
+
+.streamBox:not(.large):hover .details.on-hover a {
+    max-width: 304px;
+    margin: 0 auto;
+}
+
+.streamBox:not(.large) .details.on-hover > a.cta-btn {
+    display: block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    width: 32px;
+    height: 20px;
+    background-color: #0E60DC;
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-top: 24px;
+}
+
+.streamBox:not(.large) .details.on-hover > a.cta-btn svg {
+    position: relative;
+    top: -5px;
+}
+
+.streamBox a.playBtn {
+    background-color: #17171f;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 40%;
+}
+
+.streamBox .details {
+    box-sizing: border-box;
+    padding: 28px 26px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.05);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    width: 100%;
+}
+
+.streamBox .details > span.stream {
+    padding: 5px 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+}
+
+.streamBox .details > span.stream.twitch {
+    background-color: #6442a3;
+}
+
+.streamBox .details > a {
+    display: block;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 15px;
+    max-width: 304px;
+    text-decoration: none;
+}
+
+.streamBox .details > h6 {
+    margin: 8px 0 0;
+    color: #0E60DC;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+}

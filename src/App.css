@@ -1,0 +1,228 @@
+footer ul, ol {
+    padding: 0;
+    margin: 0;
+    padding-left: 0;
+}
+
+footer {
+    border-top: 1px solid #44445c;
+    min-height: 431px;
+    background-color: #000;
+    width: 100%;
+    position: relative;
+}
+
+footer .uk-container.top {
+    display: flex;
+    display: -webkit-flex;
+    min-height: 360px;
+}
+
+footer .uk-container.top {
+    padding: 60px 0 15px;
+}
+
+footer .uk-container.top article.box:not(:last-child) {
+    padding-right: 68px;
+    margin-right: 68px;
+    max-width: 248px;
+}
+
+footer .uk-container.top article.box {
+    max-width: 180px;
+    position: relative;
+}
+
+footer .uk-container.top article.box h4 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 42px;
+}
+
+footer .uk-container.top article.box h4 svg {
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+
+footer .uk-container.top article.box h4 svg path{
+    fill: #0E60DC !important;
+}
+
+footer .uk-container.top article.box ul li {
+    list-style: none;
+    line-height: 1;
+}
+
+footer .uk-container.top article.box ul li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+footer .uk-container.top article.box:not(:last-child):after {
+    height: 307px;
+    width: 1px;
+    background-color: #15151f;
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+footer .uk-container.top article.box h4 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 42px;
+}
+
+footer .uk-container.top article.box ul li > a:not(.email) {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    line-height: 22px;
+    margin: 6px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+footer .uk-container.top article.box ul li > span.date {
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.875em;
+    color: #0E60DC !important;
+}
+
+footer .uk-container.top article.box ul li > a > span.info {
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.875em;
+    line-height: 1;
+}
+
+footer .uk-container.top article.box ul li > a > span.info .icon {
+    height: 11px;
+    width: 11px;
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+footer .uk-container.top article.box ul li > a > span.email {
+    color: #0E60DC;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.8125em;
+    display: block;
+    margin-top: 8px;
+    line-height: 1;
+}
+
+footer .uk-container.top article.box ul.useful-links li {
+    list-style: none;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+footer .uk-container.top article.box ul.useful-links li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+footer .uk-container.top article.box ul.useful-links li span {
+    color: #999b9e;
+    font-family: "Ubuntu", sans-serif;
+    margin-right: 5px;
+    font-size: 0.875em;
+    line-height: 1;
+}
+footer .uk-container.top article.box ul.useful-links li a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.875em;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    display: initial;
+    margin: 0;
+}
+
+footer .uk-container.top article.box.aboutUs p {
+    line-height: 26px;
+    font-size: 0.875em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #999b9e;
+    margin: 0;
+}
+
+footer .uk-container.top article.box.aboutUs a {
+    font-weight: bold;
+    width: 140px;
+    height: 36px;
+    background: transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    border: 2px solid #0E60DC;
+    color: #0E60DC;
+    display: inline-block;
+    margin-top: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.75em;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+footer .bottom {
+    border-top: 1px solid #23232f;
+    margin-top: 15px;
+}
+
+footer .bottom .uk-container {
+    display: flex;
+    display: -webkit-flex;
+}
+
+footer .bottom .uk-container > div.uk-navbar-left h5 {
+    margin: 0 55px 0 0;
+    color: #0E60DC;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+}
+
+footer .bottom .uk-container > div.uk-navbar-left div.social-icons {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+footer .uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #000000;
+}
+
+footer .bottom .uk-container > div.uk-navbar-right h5 {
+    margin: 0;
+    color: #5e606e;
+}
+
+footer .bottom .uk-container > div.uk-navbar-right {
+    color: #5e606e;
+    font-size: 0.875em;
+    font-family: "Source Sans Pro", sans-serif;
+}
