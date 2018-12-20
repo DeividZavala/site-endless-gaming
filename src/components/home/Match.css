@@ -1,0 +1,205 @@
+.matches-section div.matchBox{
+    box-sizing: border-box;
+    padding: 25px 45px;
+    display: flex;
+    background: rgba(34, 34, 46, 0.08);
+    background: -moz-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(57, 191, 253, 0.08) 100%);
+    background: -webkit-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(57, 191, 253, 0.08) 100%);
+    background: -o-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(57, 191, 253, 0.08) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(57, 191, 253, 0.08) 100%);
+    background: linear-gradient(to right, rgba(34, 34, 46, 0.08) 0%, rgba(57, 191, 253, 0.08) 100%);
+    height: 143px;
+    width: 100%;
+    display: flex;
+    padding: 25px 45px;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.matches-section div.matchBox {
+    display: flex;
+    background: rgba(34, 34, 46, 0.08);
+    background: -moz-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(14,96,220,.08) 100%);
+    background: -webkit-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(14,96,220,.08) 100%);
+    background: -o-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(14,96,220,.08) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 34, 46, 0.08) 0%, rgba(14,96,220,.08) 100%);
+    background: linear-gradient(to right, rgba(34, 34, 46, 0.08) 0%, rgba(14,96,220,.08) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22222e', endColorstr='#ff360e', GradientType=1 );
+}
+
+.matches-section div.matchBox > div.teams {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding-right: 54px;
+    position: relative;
+}
+
+.matchBox > div.teams > a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+    color: #b7b9bd;
+    text-transform: uppercase;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.matchBox > div.teams > a > img {
+    width: auto;
+    max-height: 66px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.matches-section .matchBox > div.teams > span {
+    display: block;
+    margin: 0 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #b7b9bd;
+    width: 48px;
+    height: 48px;
+    background-color: #1e1e27;
+    text-align: center;
+    line-height: 48px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #2f2f3a;
+}
+
+.matchBox > div.teams:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    background-color: #26262e;
+    width: 1px;
+    height: 82px;
+}
+
+.matchBox > div.rightBox {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.matchBox > div.rightBox > div.match-info {
+    padding: 0 47px;
+    line-height: 1;
+    position: relative;
+}
+
+.matchBox > div.rightBox > div.match-info > span.league {
+    color: #0E60DC;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+}
+
+.matchBox > div.rightBox > div.match-info > div.status {
+    margin: 12px 0;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+}
+
+.matchBox > div.rightBox > div.match-info > div.status > span {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-size: 0.75em;
+    margin-right: 6px;
+    background-color: #0E60DC;
+}
+
+.matchBox > div.rightBox > div.match-info > span.date {
+    color: #66696e;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+}
+
+.matchBox > div.rightBox > div.match-info:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -7px;
+    background-color: #26262e;
+    width: 1px;
+    height: 82px;
+}
+
+.matchBox > div.rightBox > div.stream {
+    padding-left: 60px;
+}
+
+.matchBox > div.rightBox > div.stream > a {
+    text-decoration: none;
+    color: #0E60DC;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 8px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.matchBox > div.rightBox > div.stream > span {
+    padding: 5px 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.matchBox > div.rightBox > div.stream > span.twitch {
+    background-color: #6442a3;
+}
+
+.matchBox > a.cta-btn {
+    display: block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    width: 32px;
+    height: 20px;
+    background-color: #0E60DC;
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.matchBox > a.cta-btn svg {
+    position: relative;
+    top: -2px;
+}
