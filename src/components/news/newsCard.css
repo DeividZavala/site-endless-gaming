@@ -1,0 +1,68 @@
+.news-card{
+    min-height: 226px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: #111;
+    background-size: cover;
+}
+.news-card.large{
+    height: 360px;
+}
+.news-card a.category {
+    padding: 8px 10px;
+    background-color: #0E60DC;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.625em;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    margin: 27px 24px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.news-card > .details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 24px;
+    background: rgba(0, 0, 0, 0.05);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, black 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, black 100%);
+}
+
+.news-card > .details > a:not(.category) {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    display: block;
+    line-height: 25px;
+    max-width: 275px;
+    text-decoration: none;
+}
+
+.news-card > .details > span {
+    color: #0E60DC;
+    display: block;
+    line-height: 1;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+    padding: 18px 0 36px;
+}

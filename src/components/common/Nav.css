@@ -1,15 +1,15 @@
 .nav-main nav.uk-navbar-container.uk-navbar.social-nav{
     height: 50px;
-    background-color: #333;
+    background-color: #000;
 }
 .nav-main{
-    background-color: #333;
+    background-color: #000;
 }
 .nav-main nav.uk-navbar-container.uk-navbar.site-navbar{
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
     height: 80px;
-    background-color: #333;
+    background-color: #000;
 }
 .nav-main .uk-navbar-item.uk-logo img{
     display: block;
