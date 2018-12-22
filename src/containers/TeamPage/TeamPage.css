@@ -1,0 +1,347 @@
+.team-page ul{
+    padding: 0;
+    margin: 0;
+}
+.team-page .cover-bg {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 324px;
+    width: 100%;
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.team-profile {
+    padding-top: 200px;
+    position: relative;
+}
+
+.team-info {
+    display: flex;
+    display: -webkit-flex;
+    height: 124px;
+}
+
+.game {
+    background-color: #0f0f15;
+    width: 292px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    background-size: 160px;
+}
+
+.team-info .profile-details {
+    padding-left: 32px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    background: #1b1b22;
+    background: -moz-linear-gradient(left, #1b1b22 0%, transparent 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #1b1b22), color-stop(100%, transparent));
+    background: -webkit-linear-gradient(left, #1b1b22 0%, transparent 100%);
+    background: -o-linear-gradient(left, #1b1b22 0%, transparent 100%);
+    background: -ms-linear-gradient(left, #1b1b22 0%, transparent 100%);
+    background: linear-gradient(to right, #1b1b22 0%, transparent 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1b1b22', endColorstr='#000000', GradientType=1);
+    border-top: 1px solid #303039;
+    border-left: 1px solid #303039;
+    border-right: 1px solid #303039;
+    width: 100%;
+}
+
+.team-info .profile-details figure {
+    margin: 0 30px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+.team-info .profile-details figure img {
+    max-height: 49px;
+    width: auto;
+}
+
+.team-info .profile-details div.name {
+    align-items: center;
+    -webkit-align-items: center;
+    height: 65px;
+    font-family: "Ubuntu", sans-serif;
+    padding: 8px 8px 8px 28px;
+    border-left: 1px solid #46474c;
+}
+
+.team-info .profile-details div.name h4 {
+    margin: 0 0 2px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.375em;
+    line-height: 1;
+}
+
+.team-info .profile-details div.name span {
+    color: #0E60DC;
+    font-size: 0.875em;
+}
+
+.stats {
+    background-color: #1e1e26;
+    border: 1px solid #303039;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    height: 120px;
+    padding: 0 27px;
+}
+
+.stats ul.left {
+    margin-right: auto;
+}
+
+.stats ul.left li.numeric:not(:last-child) {
+    margin-right: 22px;
+    padding-right: 22px;
+    border-right: 1px solid #303039;
+}
+
+.stats ul.left li h5 {
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.stats ul.left li svg {
+    margin-right: 5px;
+}
+.stats ul.left li.first:after {
+    height: 1px;
+    width: 32px;
+    background-color: #303039;
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 23px;
+}
+
+.stats ul.left li span.mTitle {
+    display: block;
+    font-size: 0.875em;
+    color: #afafbc;
+    margin-bottom: 8px;
+}
+
+.stats ul.left li span.number {
+    display: block;
+    color: #fff;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.stats ul {
+    display: flex;
+    display: -webkit-flex;
+    list-style: none;
+}
+
+.stats ul.right li {
+    padding: 30px 0;
+}
+
+.stats ul.right li span {
+    line-height: 1;
+    display: block;
+}
+
+.stats ul.right li span {
+    line-height: 1;
+    display: block;
+}
+
+.stats ul.right li span.subtitle span.flag-icon {
+    position: relative;
+    display: inline-block;
+    top: -2px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+
+.stats ul.left li.first {
+    position: relative;
+    padding-right: 54px;
+    margin-right: 22px;
+}
+
+.stats ul.right li {
+    padding: 30px 0;
+}
+
+.stats ul.left li span.title {
+    font-size: 0.875em;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 6px;
+    color: #0E60DC;
+}
+
+.stats ul.left li svg path {
+    fill: #0E60DC;
+}
+
+.stats ul.right li span.title {
+    color: #afafbc;
+    font-size: 0.875em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.stats ul.right li span.subtitle {
+    color: #fff;
+    font-size: 1.375em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stats ul.right li:not(:last-child) {
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 1px solid #303039;
+}
+
+.about {
+    background-color: #16161d;
+    padding: 48px 40px;
+    border-bottom: 1px solid #303039;
+    color: #afafbc;
+    line-height: 25px;
+    font-size: 0.875em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.achievements {
+    width: 100%;
+    background-color: #16161d;
+    height: 100px;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.achievements li {
+    list-style: none;
+    width: 240px;
+    line-height: 1;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.achievements li span.title {
+    text-transform: uppercase;
+    color: #0E60DC;
+    font-size: 0.75em;
+    display: block;
+}
+
+.achievements li p {
+    margin: 8px 0 0;
+}
+
+.achievements li p .place {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.achievements li p span {
+    display: inline-block;
+}
+
+.achievements li span {
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+}
+
+.achievements li p .place.first {
+    background-color: #0E60DC;
+}
+
+.achievements li p .place.second {
+    background-color: #595963;
+}
+
+.achievements li p .place.third {
+    background-color: #30303b;
+}
+
+.achievements li p .date {
+    font-weight: bold;
+    font-size: 0.875em;
+}
+
+.achievements li:nth-child(2n + 1) {
+    background-color: #131319;
+}
+
+@media screen and (max-width: 624px){
+    .team-page .team-info {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        height: auto;
+    }
+    .team-info .game {
+        width: 100%;
+        height: 124px;
+    }
+    .team-info .profile-details, .team-info .game {
+        width: 100%;
+        height: 124px;
+    }
+    .team-info .profile-details {
+        padding-left: 0;
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    .stats {
+        height: auto;
+        padding: 40px 0;
+        font-size: 12px;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    .stats ul.left {
+        margin: 0;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #303039;
+    }
+    .stats ul.left li.numeric:not(:last-child) {
+        margin-right: 10px;
+        padding-right: 5px;
+        border: 0;
+    }
+    .stats ul.right {
+        margin: 0;
+    }
+    .stats ul.right li:not(:last-child) {
+        border: 0;
+    }
+    ul.achievements {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        height: initial;
+    }
+    .achievements li {
+        flex-grow: 1;
+        -webkit-flex-grow: 1;
+    }
+}

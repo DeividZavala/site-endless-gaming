@@ -7,7 +7,8 @@ import {BrowserRouter} from 'react-router-dom';
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import ScrollToTop from './components/common/ScrollToTop';
 import 'uikit/dist/css/uikit.min.css';
 
 
@@ -19,7 +20,9 @@ library.add(fab);
 
 const WithRouter = () => (
     <BrowserRouter>
-        <App />
+        <ScrollToTop>
+            <App />
+        </ScrollToTop>
     </BrowserRouter>
 );
 

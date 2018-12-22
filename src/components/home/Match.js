@@ -1,7 +1,7 @@
 import React from 'react';
 import './Match.css'
 
-const Match = ({live}) => (
+const Match = ({live, score}) => (
     <div className="matchBox">
         <div className="teams">
             <a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/team/midnight-turtles">
@@ -9,7 +9,7 @@ const Match = ({live}) => (
                      alt="Team&#039;s logo" />
                     <span>Midnight Turtles</span>
             </a>
-            <span className="vs">VS</span>
+            {score ? <span className="score">0 - 3</span> : <span className="vs">VS</span>}
             <a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/team/rhyno-domynos">
                 <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/intz.png"
                      alt="Team&#039;s logo" />

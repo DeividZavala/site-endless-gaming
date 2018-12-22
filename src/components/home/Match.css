@@ -176,6 +176,17 @@
     color: #fff;
 }
 
+.matchBox > div.teams > span.score {
+    background: transparent;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    width: 70px;
+    border: 0;
+    margin: 0 20px;
+    font-size: 1.375em;
+}
+
 .matchBox > div.rightBox > div.stream > span.twitch {
     background-color: #6442a3;
 }
@@ -230,5 +241,16 @@
     .matches-section .matchBox > div.teams > span.vs{
         margin: 0 20px;
         line-height: 50px;
+    }
+    .matchBox div.rightBox div.match-info {
+        padding-left: 0;
+        padding-right: 40px;
+    }
+    .matchBox div.rightBox div.stream {
+        padding: 0;
+    }
+    .matchBox > div.rightBox > div.match-info > div.status > span{
+        display: inline-block;
+        margin-bottom: 5%;
     }
 }

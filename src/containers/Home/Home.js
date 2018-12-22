@@ -70,10 +70,10 @@ class Home extends Component{
 
                         <div className="uk-grid uk-child-width-1-2@m uk-grid-small" uk-grid="true">
 
-                            <TeamCard img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team1.jpg" />
-                            <TeamCard img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team2.jpg" />
-                            <TeamCard img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team3.jpg" />
-                            <TeamCard img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team4.jpg"/>
+                            <TeamCard game="league-of-legends" img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team1.jpg" />
+                            <TeamCard game="call-of-duty" img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team2.jpg" />
+                            <TeamCard game="overwatch" img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team3.jpg" />
+                            <TeamCard game="counter-strike" img="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team4.jpg"/>
 
                         </div>
 
@@ -92,7 +92,7 @@ class Home extends Component{
                                 <Match />
                             </li>
                             <li>
-                                <Match live={true}/>
+                                <Match live={true} score={true}/>
                             </li>
                         </ul>
                     </div>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import NavLink from "react-router-dom/es/NavLink";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFacebookF, faInstagram, faTwitter, faTwitch, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import endlessLogo from '../../images/EG-LOGO-blue.png';
@@ -46,12 +47,12 @@ class Navbar extends Component{
 
                     <div className="uk-navbar-right uk-visible@s">
                         <ul className="uk-navbar-nav">
-                            <li className=""><a href="#">Inicio</a></li>
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Matches</a></li>
-                            <li><a href="#">Equipos</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Patrocinadores</a></li>
+                            <li className=""><NavLink to="/">Inicio</NavLink></li>
+                            <li><NavLink to="">Noticias</NavLink></li>
+                            <li><NavLink to="">Matches</NavLink></li>
+                            <li><NavLink to="">Equipos</NavLink></li>
+                            <li><NavLink to="">Nosotros</NavLink></li>
+                            <li><NavLink to="">Patrocinadores</NavLink></li>
                         </ul>
                     </div>
 
