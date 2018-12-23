@@ -35,25 +35,25 @@ class TeamPage extends Component{
                     nickname: "Slayer"
                 },
                 {
-                    name: "Jared",
-                    lastname: "Calderon",
-                    profilePicture: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/player-profile.jpg",
+                    name: "Rafael",
+                    lastname: "Anaya",
+                    profilePicture: "https://i.ytimg.com/vi/-9EnirAgfq8/maxresdefault.jpg",
                     role: "Strategier",
                     nickname: "Triiz"
                 },
                 {
-                    name: "Jared",
-                    lastname: "Calderon",
+                    name: "Roberto",
+                    lastname: "González",
                     profilePicture: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Player-Profile-1.jpg",
                     role: "Jumper",
                     nickname: "Romo"
                 },
                 {
-                    name: "Jared",
-                    lastname: "Calderon",
+                    name: "Rodrigo",
+                    lastname: "Armendáriz",
                     profilePicture: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/player-profile-1.jpg",
                     role: "Shooter",
-                    nickname: "Viper"
+                    nickname: "Ruper"
                 },
                 {
                     name: "Jared",
