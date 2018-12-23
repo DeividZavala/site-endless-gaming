@@ -44,7 +44,7 @@ class TeamPage extends Component{
                 {
                     name: "Roberto",
                     lastname: "González",
-                    profilePicture: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Player-Profile-1.jpg",
+                    profilePicture: "https://esports.as.com/2017/06/28/call-of-duty/maxresdefault_1039706028_9011_1440x600.jpg",
                     role: "Jumper",
                     nickname: "Romo"
                 },

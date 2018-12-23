@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavLink from "react-router-dom/es/NavLink";
+import {NavLink, Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFacebookF, faInstagram, faTwitter, faTwitch, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import endlessLogo from '../../images/EG-LOGO-blue.png';
@@ -40,9 +40,9 @@ class Navbar extends Component{
                 <nav className="site-navbar uk-navbar-container padding-right" uk-navbar="true">
 
                     <div className="uk-navbar-left">
-                        <a className="uk-navbar-item uk-logo" href="#">
+                        <Link className="uk-navbar-item uk-logo" to="/">
                             <img data-src={endlessLogo} alt="" uk-img="true" />
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="uk-navbar-right uk-visible@s">
