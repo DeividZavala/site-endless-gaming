@@ -57,7 +57,7 @@ class App extends Component {
                           <li>
                               <a href="mailto:office@pixiesquad.com">
                                 <span className="info">
-                                    <i className="icon" style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon1.png')`}}></i>
+                                    <i className="icon" style={{backgroundImage: `url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon1.png')`}}></i>
                                     Management
                                 </span>
                                 <span className="email">
@@ -68,7 +68,7 @@ class App extends Component {
                           <li>
                               <a href="mainto:help@pixiesquad.com">
                                 <span className="info">
-                                    <i className="icon" style={{backgroundImage: "url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon2.png')"}}></i>
+                                    <i className="icon" style={{backgroundImage: "url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon2.png')"}}></i>
                                     Support
                                 </span>
                                   <span className="email">
@@ -79,7 +79,7 @@ class App extends Component {
                           <li>
                               <a href="mailto:news@pixiesquad.com">
                                 <span className="info">
-                                    <i className="icon" style={{backgroundImage: "url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon3.png')"}}></i>
+                                    <i className="icon" style={{backgroundImage: "url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/icon3.png')"}}></i>
                                     Press
                                 </span>
                                   <span className="email">
@@ -102,22 +102,22 @@ class App extends Component {
                       <ul id="footer_menu" className="useful-links">
                           <li id="menu-item-100"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-                              <span>+</span><a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/news/">News</a>
+                              <span>+</span><a href="https://themes.pixiesquad.com/pixiehuge/orange-elite/news/">News</a>
                           </li>
                           <li id="menu-item-101"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-101">
-                              <span>+</span><a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/about-us/">About
+                              <span>+</span><a href="https://themes.pixiesquad.com/pixiehuge/orange-elite/about-us/">About
                               us</a></li>
                           <li id="menu-item-102"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
-                              <span>+</span><a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/team/">Team</a>
+                              <span>+</span><a href="https://themes.pixiesquad.com/pixiehuge/orange-elite/team/">Team</a>
                           </li>
                           <li id="menu-item-103"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-103">
-                              <span>+</span><a href="http://pixiesquad.com">PixieSquad</a></li>
+                              <span>+</span><a href="https://pixiesquad.com">PixieSquad</a></li>
                           <li id="menu-item-104"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-104">
-                              <span>+</span><a href="http://support.pixiesquad.com">Support</a></li>
+                              <span>+</span><a href="https://support.pixiesquad.com">Support</a></li>
                       </ul>
                   </article>
 
