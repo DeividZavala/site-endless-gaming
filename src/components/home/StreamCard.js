@@ -3,7 +3,7 @@ import './StreamCard.css';
 
 const StreamCard = ({large}) => (
     <div className={`streamBox ${large ? 'large' : '' }`}
-         style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/thumbnail.jpg')`}}>
+         style={{backgroundImage: `url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/thumbnail.jpg')`}}>
 
         {!large ?
             <div className="details on-hover">
