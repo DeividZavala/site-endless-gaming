@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1861ba5e-182b-4442-a566-003458f3fca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4462">
-              <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+            <state relative-caret-position="-2865">
+              <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="135" column="88" selection-start-line="135" selection-start-column="88" selection-end-line="135" selection-end-column="88" />
+            <state relative-caret-position="-3400">
+              <caret line="73" column="123" selection-start-line="73" selection-start-column="123" selection-end-line="73" selection-end-column="123" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -52,7 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-772">
+              <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+              <caret line="73" column="68" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="68" />
+              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+              <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+              <caret line="108" column="53" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -62,28 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2829">
-              <caret line="123" column="12" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="33">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -92,19 +87,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/components/news/newsCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="138">
+              <caret line="6" column="63" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/router.js">
+        <entry file="file://$PROJECT_DIR$/src/components/home/HomeHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="79">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/home/Match.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -137,6 +144,7 @@
       <find>player-</find>
       <find>position</find>
       <find>info</find>
+      <find>http</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,25 +165,25 @@
         <option value="$PROJECT_DIR$/src/components/home/StreamCard.css" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/home/HomeHeader.js" />
         <option value="$PROJECT_DIR$/src/components/common/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/home/Match.css" />
-        <option value="$PROJECT_DIR$/src/components/home/Match.js" />
         <option value="$PROJECT_DIR$/src/components/home/TeamCard.js" />
         <option value="$PROJECT_DIR$/src/components/common/FlagIcon.js" />
         <option value="$PROJECT_DIR$/src/components/TeamPage/PlayerCard.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/common/ScrollToTop.js" />
         <option value="$PROJECT_DIR$/src/components/common/Nav.js" />
-        <option value="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js" />
         <option value="$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js" />
         <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js" />
         <option value="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.css" />
+        <option value="$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js" />
+        <option value="$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/home/HomeHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/home/Match.js" />
       </list>
     </option>
   </component>
@@ -217,7 +225,7 @@
               <item name="site-endless-gaming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamPage" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-endless-gaming" type="b2602c69:ProjectViewProjectNode" />
@@ -230,14 +238,7 @@
               <item name="site-endless-gaming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="PlayerPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-endless-gaming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-endless-gaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,12 +292,12 @@
       <workItem from="1545256146650" duration="39825000" />
       <workItem from="1545539576024" duration="156000" />
       <workItem from="1545765455928" duration="7491000" />
-      <workItem from="1545775980898" duration="2271000" />
+      <workItem from="1545775980898" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63111000" />
+    <option name="totallyTimeSpent" value="63562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -370,16 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news/newsCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home/StreamCard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -404,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/HomeHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/Nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -422,16 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/Match.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,15 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -508,16 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4462">
-          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -529,16 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="123" column="12" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,20 +518,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="135" column="88" selection-start-line="135" selection-start-column="88" selection-end-line="135" selection-end-column="88" />
+        <state relative-caret-position="277">
+          <caret line="469" column="5" selection-start-line="469" selection-start-column="5" selection-end-line="469" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/TeamPage/TeamPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2865">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/PlayerPage/PlayerPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="469" column="5" selection-start-line="469" selection-start-column="5" selection-end-line="469" selection-end-column="5" />
+        <state relative-caret-position="-3400">
+          <caret line="73" column="123" selection-start-line="73" selection-start-column="123" selection-end-line="73" selection-end-column="123" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-772">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+          <caret line="73" column="68" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="68" />
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+          <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+          <caret line="108" column="53" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TeamPage/PlayerCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news/newsCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomeHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/Match.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

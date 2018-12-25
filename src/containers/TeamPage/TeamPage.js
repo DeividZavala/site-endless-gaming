@@ -16,13 +16,13 @@ class TeamPage extends Component{
                 {
                     title: "RENEGADES DEFEAT SIGNATURE; TO MINOR PLAYOFFS",
                     date: "June 16, 2017",
-                    img: "http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/post7.jpg",
+                    img: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/post7.jpg",
                     category: "Call of duty"
                 },
                 {
                     title: "SCREAM: “NOW WE KNOW WE’RE CAPABLE OF",
                     date: "June 16, 2017",
-                    img: "http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/post8.jpg",
+                    img: "https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/post8.jpg",
                     category: "Counter Strike"
                 }
             ],
@@ -70,14 +70,14 @@ class TeamPage extends Component{
         const {game} = this.props.match.params;
         return(
             <div className="team-page uk-margin-large-bottom">
-                <div className="cover-bg" style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Cover-Team.jpg')`}}></div>
+                <div className="cover-bg" style={{backgroundImage: `url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Cover-Team.jpg')`}}></div>
                 <div className="team-profile">
                     <div className="uk-container">
                         <article className="team-info">
-                            <div className="game" style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/gamelogo1.png')`}}></div>
+                            <div className="game" style={{backgroundImage: `url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/gamelogo1.png')`}}></div>
                             <div className="profile-details">
                                 <figure>
-                                    <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/intz.png" alt=""/>
+                                    <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/intz.png" alt=""/>
                                 </figure>
                                 <div className="name">
                                     <h4>Rhyno Domynos</h4>

@@ -71,7 +71,7 @@ class PlayerPage extends Component{
 
                                         <li>
                                             <span className="title">Ingame Role</span>
-                                            <span className="desc"><i className="icon" style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/role.png')`}}></i> Jumper</span>
+                                            <span className="desc"><i className="icon" style={{backgroundImage: `url('https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/role.png')`}}></i> Jumper</span>
                                         </li>
                                     </ul>
 

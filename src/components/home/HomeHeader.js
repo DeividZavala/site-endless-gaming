@@ -3,7 +3,7 @@ import React from 'react';
 const HomeHeader = () => (
     <div className="main-banner">
         <div className="banner-image uk-flex uk-flex-middle uk-background-cover uk-light"
-             data-src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/main-hero-2.jpg" uk-img="true">
+             data-src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/main-hero-2.jpg" uk-img="true">
             <div className="main-banner-info uk-container">
                 <h4 className="color-primary">Esports Fans This Is For You</h4>
                 <h3 className="colo-white">Built for gamers, eSports fans, game fans & true gaming lovers</h3>
@@ -19,19 +19,19 @@ const HomeHeader = () => (
 
                     <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                         <li>
-                            <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/8.png" alt="" />
+                            <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/8.png" alt="" />
                         </li>
                         <li>
-                            <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/4.png" alt="" />
+                            <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/4.png" alt="" />
                         </li>
                         <li>
-                            <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/5.png" alt="" />
+                            <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/5.png" alt="" />
                         </li>
                         <li>
-                            <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/6.png" alt="" />
+                            <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/6.png" alt="" />
                         </li>
                         <li>
-                            <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/7.png" alt="" />
+                            <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/7.png" alt="" />
                         </li>
                     </ul>
 

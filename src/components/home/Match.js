@@ -5,13 +5,13 @@ const Match = ({live, score}) => (
     <div className="matchBox">
         <div className="teams">
             <a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/team/midnight-turtles">
-                <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/logo2.png"
+                <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/logo2.png"
                      alt="Team&#039;s logo" />
                     <span>Midnight Turtles</span>
             </a>
             {score ? <span className="score">0 - 3</span> : <span className="vs">VS</span>}
             <a href="http://themes.pixiesquad.com/pixiehuge/orange-elite/team/rhyno-domynos">
-                <img src="http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/intz.png"
+                <img src="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/intz.png"
                      alt="Team&#039;s logo" />
                     <span>Rhyno Domynos</span>
             </a>
