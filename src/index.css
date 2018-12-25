@@ -169,12 +169,10 @@ code {
   border: 1px solid #26262e;
   background: #14141b;
   background: -moz-linear-gradient(left, #14141b 0%, #1a1a22 26%, #15151d 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #14141b), color-stop(26%, #1a1a22), color-stop(100%, #15151d));
   background: -webkit-linear-gradient(left, #14141b 0%, #1a1a22 26%, #15151d 100%);
   background: -o-linear-gradient(left, #14141b 0%, #1a1a22 26%, #15151d 100%);
   background: -ms-linear-gradient(left, #14141b 0%, #1a1a22 26%, #15151d 100%);
   background: linear-gradient(to right, #14141b 0%, #1a1a22 26%, #15151d 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#14141b', endColorstr='#15151d', GradientType=1);
   padding: 0 25px;
 }
 

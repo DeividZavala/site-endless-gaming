@@ -1,0 +1,558 @@
+#player-profile ul, ol {
+    padding: 0;
+    margin: 0;
+    padding-left: 0;
+}
+
+section#player-profile {
+    padding-top: 200px;
+}
+
+section#player-profile .player-info {
+    display: flex;
+    display: -webkit-flex;
+    height: auto;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+section#player-profile .player-info .avatar {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+
+section#player-profile .player-info .right-panel {
+    width: 100%;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details {
+    box-sizing: border-box;
+    height: 124px;
+    padding-left: 47px;
+    padding-right: 47px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0.4) 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0.4) 100%);
+    background: -o-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0.4) 100%);
+    background: -ms-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0.4) 100%);
+    background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.4) 100%);
+    border: 1px solid #303039;
+    width: 100%;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    list-style: none;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li figure {
+    margin: 0 30px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li figure img {
+    max-height: 49px;
+    width: auto;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li div.name {
+    align-items: center;
+    -webkit-align-items: center;
+    height: 65px;
+    font-family: "Ubuntu", sans-serif;
+    padding: 4px 8px 8px 28px;
+    border-left: 1px solid #46474c;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li div.name span {
+    margin: 0 0 4px;
+    color: #0E60DC;
+    font-size: 1.125em;
+    font-weight: bold;
+    display: block;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li div.name h4 {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social {
+    margin-left: auto;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    list-style: none;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a.stream.twitch {
+    background-color: #6442a3;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a.stream {
+    padding: 5px 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a {
+    text-decoration: none;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a:not(.stream).first {
+    margin-left: 48px;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a:not(.stream):not(:last-child) {
+    margin-right: 12px;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a:not(.stream) {
+    color: #fff;
+    font-size: 0.875em;
+    position: relative;
+}
+
+section#player-profile .player-info .right-panel ul.profile-details li.social a:not(.stream).first:before {
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 1px;
+    content: ' ';
+    display: block;
+    left: -24px;
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+
+section#player-profile .player-info .right-panel ul.info-section {
+    display: flex;
+    display: -webkit-flex;
+    background-color: #1c1c24;
+    border-bottom: 1px solid #393946;
+    border-right: 1px solid #393946;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li:not(:last-child) {
+    border-right: 1px solid #393946;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li {
+    display: flex;
+    border-bottom: 1px solid transparent;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    list-style: none;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    width: 210px;
+    height: 84px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li span {
+    line-height: 1;
+    display: block;
+    margin-bottom: 10px;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li span.title {
+    color: #afafbc;
+    font-size: 0.875em;
+    text-transform: capitalize;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li a {
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li span.desc {
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+section#player-profile .player-info .right-panel ul.info-section li i.icon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+section#player-profile .player-info .right-panel div.about {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    padding: 36px 40px 30px;
+    background-color: #1c1c24;
+    height: 218px;
+    border-bottom: 1px solid #393946;
+    border-right: 1px solid #393946;
+}
+
+section#player-profile .player-info .right-panel div.about span.title {
+    color: #afafbc;
+    font-size: 0.875em;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: block;
+}
+
+section#player-profile .player-info .right-panel div.about h4 {
+    line-height: 1.3;
+    display: flex;
+    margin: 0;
+    color: #fff;
+    font-size: 1em;
+}
+
+section#player-profile .player-info .right-panel div.about p {
+    line-height: 29px;
+    color: #afafbc;
+    font-size: 1.1em;
+    margin: 30px 0 0;
+}
+
+section#player-profile .player-info .right-panel div.about h4 svg {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li:hover {
+    border-bottom: 1px solid #0E60DC !important;
+}
+
+section#player-profile .player-info .right-panel ul.info-section li:hover span.title {
+    color: #0E60DC !important;
+}
+
+.content .stats {
+    background-color: #000;
+    border: none;
+    height: auto;
+    padding: 36px 48px;
+}
+
+.content .stats ul {
+    display: flex;
+    width: 100%;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.content .stats ul li {
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .stats ul li h4 {
+    color: #fff;
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 15px 0 0;
+    line-height: 1;
+}
+
+.content .stats ul li div.info {
+    position: relative;
+}
+
+.content .stats ul li:not(:last-child) div.info:not(.last) {
+    margin-right: 30px;
+    padding-right: 30px;
+}
+.content .stats ul li div.info span {
+    line-height: 1;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.875em;
+    color: #afafbc;
+    display: block;
+}
+
+.content .stats ul li div.info span.title {
+    color: #0E60DC;
+}
+
+.content .stats ul li div.info span.desc {
+    margin-top: 6px;
+}
+
+.content .stats ul li.steam {
+    margin-left: auto;
+}
+
+.content .stats ul li.steam a{
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.content .stats ul li.steam a:hover{
+    color: #fff;
+}
+
+.content div.equip {
+    background-color: #16161d;
+    padding: 48px 46px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.content div.equip ul {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    min-height: 140px;
+}
+
+.content div.equip ul li:not(:nth-child(3n)) {
+    margin-right: 119px;
+}
+
+.content div.equip ul li {
+    display: flex;
+    display: -webkit-flex;
+    width: 290px;
+    height: 40px;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.content div.equip ul li .details {
+    margin-right: auto;
+}
+
+.content div.equip ul li a {
+    display: block;
+    margin-left: auto;
+    padding: 5px 13px;
+    line-height: 1;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #0c0c0f;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.content div.equip ul li .details span {
+    line-height: 1;
+    display: block;
+}
+
+.content div.equip ul li .details span.name {
+    color: #0E60DC;
+    font-size: 0.875em;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.content div.equip ul li .details span.model {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.content div.equip ul li:first-child:not(:last-child):after {
+    background-color: rgba(255, 255, 255, 0.2);
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 119px;
+    position: absolute;
+    right: -55px;
+    top: 5px;
+}
+
+.content div.equip ul li:not(:last-child):nth-child(2):after {
+    background-color: rgba(255, 255, 255, 0.2);
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 119px;
+    position: absolute;
+    right: -55px;
+    top: 5px;
+}
+
+.content div.equip p {
+    line-height: 29px;
+    font-size: 0.875em;
+    color: #afafbc;
+}
+
+@media screen and (max-width: 992px){
+
+    section#player-profile {
+        padding-top: 150px;
+    }
+
+    section#player-profile .player-info .avatar {
+        height: 426px;
+    }
+
+    .content .stats {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        align-items: center;
+        -webkit-align-items: center;
+        padding: 30px;
+        height: auto;
+    }
+
+    .content .stats ul {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        height: initial;
+    }
+    .content .stats ul li {
+        margin-bottom: 20px;
+    }
+    .content div.equip ul li:not(:nth-child(2n)) {
+        margin-right: 78px;
+    }
+    .content div.equip ul li:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    section#player-profile .player-info .right-panel ul.profile-details li:not(.social) {
+        flex-shrink: 0;
+        -webkit-flex-shrink: 0;
+    }
+    section#player-profile .player-info .right-panel ul.profile-details li.social {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+    }
+    section#player-profile .player-info .right-panel ul.profile-details li.social .links {
+        margin-top: 5px;
+    }
+    section#player-profile .player-info .right-panel ul.info-section {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        border-bottom: 0;
+    }
+    section#player-profile .player-info .right-panel ul.info-section li:nth-child(2n + 1) {
+        border-right: 1px solid #393946;
+    }
+    .content .stats ul li:not(:last-child) div.info:not(.last) {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    section#player-profile .player-info .right-panel ul.info-section li {
+        flex-grow: 1;
+        -webkit-flex-grow: 1;
+        border-bottom: 1px solid #393946;
+    }
+    section#player-profile .player-info .right-panel div.about {
+        height: auto;
+    }
+    .content .stats ul li:not(:last-child) div.info:not(.last) {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .content .stats ul li:nth-child(2n + 1) {
+        margin-right: 20px;
+    }
+    .content .stats ul li.steam {
+        margin: 0 auto;
+        display: block;
+    }
+    .content .stats ul li.steam a {
+        font-size: 1.1em;
+        padding: 0 30px;
+    }
+    .content div.equip ul {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+    .content div.equip ul li:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+    .content div.equip ul li:first-child:not(:last-child):after {
+        display: none;
+    }
+    .content div.equip ul li:not(:last-child):nth-child(2):after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px){
+    section#player-profile .player-info .right-panel ul.profile-details {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        justify-content: center;
+        -webkit-justify-content: center;
+        align-items: center;
+        -webkit-align-items: center;
+        height: auto;
+        padding: 25px 0;
+    }
+    section#player-profile .player-info .right-panel ul.profile-details li.social {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    section#player-profile .player-info .right-panel ul.profile-details li.social .links {
+        margin-top: -4px;
+    }
+}

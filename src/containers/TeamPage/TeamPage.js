@@ -67,6 +67,7 @@ class TeamPage extends Component{
     }
 
     render(){
+        const {game} = this.props.match.params;
         return(
             <div className="team-page uk-margin-large-bottom">
                 <div className="cover-bg" style={{backgroundImage: `url('http://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Cover-Team.jpg')`}}></div>
@@ -204,7 +205,7 @@ class TeamPage extends Component{
                             <SectionHeader title="Nuestros jugadores"/>
 
                             <div className="uk-grid uk-child-width-1-5@m roster uk-grid-small" uk-grid="true">
-                                {this.state.players.map((player, index) => <PlayerCard {...player} key={index} />)}
+                                {this.state.players.map((player, index) => <PlayerCard game={game} {...player} key={index} />)}
                             </div>
                         </div>
 
