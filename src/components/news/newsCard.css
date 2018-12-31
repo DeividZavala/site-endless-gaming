@@ -29,6 +29,11 @@
 .news-card.large{
     height: 360px;
 }
+
+.news-section .news-card.large{
+    height: 453px;
+}
+
 .news-card a.category {
     padding: 8px 10px;
     background-color: #0E60DC;

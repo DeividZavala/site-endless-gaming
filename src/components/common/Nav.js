@@ -48,7 +48,7 @@ class Navbar extends Component{
                     <div className="uk-navbar-right uk-visible@s">
                         <ul className="uk-navbar-nav">
                             <li className=""><NavLink to="/">Inicio</NavLink></li>
-                            <li><NavLink to="">Noticias</NavLink></li>
+                            <li><NavLink to="/news">Noticias</NavLink></li>
                             <li><NavLink to="">Matches</NavLink></li>
                             <li><NavLink to="">Equipos</NavLink></li>
                             <li><NavLink to="">Nosotros</NavLink></li>

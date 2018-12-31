@@ -1,0 +1,9 @@
+.lateral-news ol, .lateral-news ul {
+    padding-left: 0;
+}
+
+.lateral-news ul.widget li {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}

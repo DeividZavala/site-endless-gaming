@@ -1,0 +1,75 @@
+.lateral-news ul:not(.children) li:not(:last-child) {
+    border-bottom: 1px solid #26262e;
+}
+
+.lateral-news ul:not(.children) li {
+    background-color: #14141c;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.lateral-news ul li {
+    color: #afafbc;
+    list-style: none;
+}
+
+.lateral-news ul:not(.children) li .thumbnail {
+    background-color: #484852;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 95px;
+    height: 54px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    margin: 0 20px 0 0;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.lateral-news ul:not(.children) li .details {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.lateral-news ul:not(.children) li .details a.category {
+    color: #afafbc;
+    font-size: 0.625em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.lateral-news ul:not(.children) li .details a.title {
+    color: #0E60DC;
+    line-height: 21px;
+    font-weight: bold;
+    font-size: 0.875em;
+    display: block;
+    text-decoration: none;
+}
+
+.lateral-news ul:not(.children) li .details span.date {
+    color: #afafbc;
+    line-height: 1;
+    font-size: 0.875em;
+    margin-top: 8px;
+    display: block;
+}
