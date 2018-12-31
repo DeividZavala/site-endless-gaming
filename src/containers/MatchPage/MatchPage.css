@@ -1,0 +1,282 @@
+section#match-details .container.bg {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+    padding: 65px 55px 55px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+section#match-details .container.bg article.middle .details span {
+    display: block;
+}
+
+section#match-details .container.bg article.head {
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+    height: 75px;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-bottom: 75px;
+}
+
+section#match-details .container.bg article.middle {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+section#match-details .container.bg article.footer {
+    width: 100%;
+    padding-top: 56px;
+    position: relative;
+}
+
+section#match-details .container.bg article.head .line {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 1px;
+    width: 110px;
+}
+
+section#match-details .container.bg article.head .content {
+    padding: 0 40px;
+}
+
+section#match-details .container.bg article.head .content span.info {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-size: 0.75em;
+    margin-right: 6px;
+    background-color: #0E60DC;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+}
+
+section#match-details .container.bg article.head .content h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.375em;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1;
+    margin: 12px 0 4px;
+}
+
+section#match-details .container.bg article.head .content span.subtitle {
+    color: #afafbc;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.875em;
+}
+
+section#match-details .container.bg article.middle .team {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+section#match-details .container.bg article.middle .details {
+    padding: 0 40px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+section#match-details .container.bg article.middle .team.home > .name {
+    margin-right: auto;
+}
+
+section#match-details .container.bg article.middle .team > .name h5 {
+    margin: 0 0 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.375em;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1;
+}
+
+section#match-details .container.bg article.middle .team > .name h6 {
+    margin: 0;
+    color: #afafbc;
+    font-size: 0.875em;
+    line-height: 1;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+}
+
+section#match-details .container.bg article.middle .team > figure > img {
+    max-width: 120px;
+    height: auto;
+}
+
+section#match-details .container.bg article.middle .team.away > .name {
+    margin-left: auto;
+    text-align: right;
+}
+
+section#match-details .container.bg article.middle .details h5 {
+    margin: 0;
+    line-height: 1;
+    color: #0E60DC;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+
+section#match-details .container.bg article.middle .details span.date {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 14px;
+    margin: 12px 0 6px;
+}
+
+section#match-details .container.bg article.middle .details span.type {
+    color: #afafbc;
+    font-size: 14px;
+    line-height: 1;
+}
+
+section#match-details .container.bg article.middle .details a.stream.twitch {
+    background-color: #6442a3;
+}
+
+section#match-details .container.bg article.middle .details a.stream {
+    padding: 5px 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin: 12px auto 0;
+}
+section#match-details .container.bg article.footer .middle span {
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1;
+}
+
+section#match-details .container.bg article.footer .middle {
+    text-align: center;
+    width: 166px;
+    margin: 0 auto;
+}
+
+section#match-details .container.bg article.footer .middle span.final {
+    color: #ff360e;
+    font-size: 0.875em;
+    text-transform: capitalize;
+}
+
+section#match-details .container.bg article.footer .middle span.score {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.25em;
+    margin: 15px 0 32px;
+}
+
+section#match-details .container.bg article.footer .middle a {
+    text-decoration: none;
+    display: inline-block;
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 0.75em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section#match-details .container.bg article.footer .middle a.facebook {
+    background-color: #3b5998;
+    margin-right: 16px;
+}
+
+section#match-details .container.bg article.footer .middle a.twitter {
+    background-color: #1da1f2;
+}
+
+.match-page .uk-tab>.uk-active>a {
+    color: #0E60DC;
+    border-color: #1e87f0;
+}
+
+@media screen and (max-width: 758px) {
+    section#match-details .container.bg {
+        height: initial;
+    }
+    section#match-details .container.bg article.middle {
+        width: 334px;
+        align-items: center;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    section#match-details article.footer {
+        text-align: center;
+    }
+    section#match-details .container.bg article.middle div.team {
+        width: 130px;
+        text-align: center;
+    }
+    section#match-details .container.bg article.middle div.team.home {
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        order: 1;
+        margin-right: 55px;
+    }
+    section#match-details .container.bg article.middle div.team.away {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        order: 2;
+    }
+    section#match-details .container.bg article.middle .team > .name h5, section#match-details .container.bg article.middle .team > .name h6{
+        text-align: center;
+    }
+    section#match-details .container.bg article.middle div.details {
+        margin-top: 60px;
+        padding: 0;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 490px){
+    section#match-details .container.bg article.head .line {
+        width: 30px;
+    }
+    section#match-details .container.bg article.head .content {
+        padding: 0 10px;
+    }
+}

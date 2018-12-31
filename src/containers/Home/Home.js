@@ -4,10 +4,10 @@ import HomeHeader from '../../components/home/HomeHeader';
 import SectionHeader from "../../components/common/SectionHeader";
 import TeamSection from '../../components/common/TeamSection';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
 import Match from "../../components/home/Match";
 import './Home.css'
 import StreamCard from "../../components/home/StreamCard";
+import MatchesDisplay from "../../components/MatchesPage/MatchesDisplay";
 
 class Home extends Component{
 
@@ -68,21 +68,7 @@ class Home extends Component{
                     <TeamSection/>
 
                     <div className="uk-container uk-margin-medium-top matches-section">
-                        <SectionHeader title="Nuestras partidas"/>
-
-                        <ul className="uk-tab" uk-switcher="animation: uk-animation-fade">
-                            <li><a href="#">Próximas partidas</a></li>
-                            <li><a href="#">Últimos resultados</a></li>
-                        </ul>
-
-                        <ul className="uk-switcher uk-margin">
-                            <li>
-                                <Match />
-                            </li>
-                            <li>
-                                <Match live={true} score={true}/>
-                            </li>
-                        </ul>
+                        <MatchesDisplay/>
                     </div>
 
                     <div className="uk-margin-medium-top uk-container">

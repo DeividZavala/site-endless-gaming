@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamSection from '../components/common/TeamSection';
+import TeamSection from '../../components/common/TeamSection';
 
 const TeamsPage = () => (
     <div className="uk-section">

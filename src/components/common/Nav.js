@@ -49,7 +49,7 @@ class Navbar extends Component{
                         <ul className="uk-navbar-nav">
                             <li className=""><NavLink to="/">Inicio</NavLink></li>
                             <li><NavLink to="/news">Noticias</NavLink></li>
-                            <li><NavLink to="">Matches</NavLink></li>
+                            <li><NavLink to="/all-matches">Matches</NavLink></li>
                             <li><NavLink to="/team">Equipos</NavLink></li>
                             <li><NavLink to="">Nosotros</NavLink></li>
                             <li><NavLink to="">Patrocinadores</NavLink></li>
@@ -72,13 +72,13 @@ class Navbar extends Component{
                             <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
 
                             <ul className="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                                <li className="uk-active"><a href="#">Noticias</a></li>
-                                <li className=""><a href="#">Matches</a></li>
-                                <li className=""><a href="#">Equipo</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">Patrocinadores</a></li>
+                                <li className="uk-active"><Link to="/news">Noticias</Link></li>
+                                <li className=""><Link to="/all-matches">Matches</Link></li>
+                                <li className=""><Link to="/team">Equipo</Link></li>
+                                <li><Link to="">Nosotros</Link></li>
+                                <li><Link to="">Patrocinadores</Link></li>
                                 <li className="uk-nav-divider"></li>
-                                <li><a href="#">Inicio</a></li>
+                                <li><Link to="/">Inicio</Link></li>
                             </ul>
 
                         </div>
