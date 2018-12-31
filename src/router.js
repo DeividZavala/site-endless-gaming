@@ -4,10 +4,13 @@ import Home from '../src/containers/Home/Home';
 import TeamPage from '../src/containers/TeamPage/TeamPage';
 import PlayerPage from './containers/PlayerPage/PlayerPage';
 import NewsPage from './containers/News/News';
+import TeamsPage from "./containers/TeamsPage";
+
 
 const Router = () => (
     <Switch>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/team" component={TeamsPage}/>
         <Route exact path="/team/:game" component={TeamPage}/>
         <Route exact path="/team/:game/player/:nickname" component={PlayerPage}/>
         <Route exact path="/news" component={NewsPage}/>

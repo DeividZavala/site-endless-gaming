@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NewsCard from "../../components/news/newsCard";
 import HomeHeader from '../../components/home/HomeHeader';
 import SectionHeader from "../../components/common/SectionHeader";
-import TeamCard from '../../components/home/TeamCard';
+import TeamSection from '../../components/common/TeamSection';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 import Match from "../../components/home/Match";
@@ -65,19 +65,7 @@ class Home extends Component{
                         </div>
                     </div>
 
-                    <div className="uk-container uk-margin-medium-top">
-                        <SectionHeader title="Nuestros equipos"/>
-
-                        <div className="uk-grid uk-child-width-1-2@m uk-grid-small" uk-grid="true">
-
-                            <TeamCard game="league-of-legends" img="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team1.jpg" />
-                            <TeamCard game="call-of-duty" img="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team2.jpg" />
-                            <TeamCard game="overwatch" img="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team3.jpg" />
-                            <TeamCard game="counter-strike" img="https://themes.pixiesquad.com/pixiehuge/orange-elite/wp-content/uploads/2017/06/Team4.jpg"/>
-
-                        </div>
-
-                    </div>
+                    <TeamSection/>
 
                     <div className="uk-container uk-margin-medium-top matches-section">
                         <SectionHeader title="Nuestras partidas"/>

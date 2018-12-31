@@ -50,7 +50,7 @@ class Navbar extends Component{
                             <li className=""><NavLink to="/">Inicio</NavLink></li>
                             <li><NavLink to="/news">Noticias</NavLink></li>
                             <li><NavLink to="">Matches</NavLink></li>
-                            <li><NavLink to="">Equipos</NavLink></li>
+                            <li><NavLink to="/team">Equipos</NavLink></li>
                             <li><NavLink to="">Nosotros</NavLink></li>
                             <li><NavLink to="">Patrocinadores</NavLink></li>
                         </ul>
